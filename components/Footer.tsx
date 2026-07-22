@@ -76,10 +76,10 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href={siteConfig.contact.emailHref}
+                  href={siteConfig.contact.eventsEmailHref}
                   className="transition-colors hover:text-champagne-400"
                 >
-                  {siteConfig.contact.email}
+                  {siteConfig.contact.eventsEmail}
                 </a>
               </p>
             </address>
