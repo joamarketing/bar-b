@@ -44,10 +44,10 @@ export default function CTASection() {
                 </dt>
                 <dd>
                   <a
-                    href={siteConfig.contact.eventsEmailHref}
+                    href={siteConfig.contact.emailHref}
                     className="transition-colors hover:text-champagne-400"
                   >
-                    {siteConfig.contact.eventsEmail}
+                    {siteConfig.contact.email}
                   </a>
                 </dd>
               </div>

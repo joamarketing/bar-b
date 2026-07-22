@@ -18,12 +18,8 @@ export const siteConfig = {
   contact: {
     phone: "+32 486 41 39 15",
     phoneHref: "tel:+32486413915",
-    // Algemeen e-mailadres (footer, privacy)
-    email: "info@bar-b.be",
-    emailHref: "mailto:info@bar-b.be",
-    // Reservatie-/evenementenadres (aanvraagformulier, CTA)
-    eventsEmail: "events@bar-b.be",
-    eventsEmailHref: "mailto:events@bar-b.be",
+    email: "events@bar-b.be",
+    emailHref: "mailto:events@bar-b.be",
   },
 
   address: {
