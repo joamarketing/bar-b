@@ -41,7 +41,7 @@ export default function InquiryForm() {
       `${data.get("message") || "-"}`,
     ].join("\n");
 
-    window.location.href = `${siteConfig.contact.emailHref}?subject=${encodeURIComponent(
+    window.location.href = `${siteConfig.contact.eventsEmailHref}?subject=${encodeURIComponent(
       subject,
     )}&body=${encodeURIComponent(body)}`;
 
@@ -71,10 +71,10 @@ export default function InquiryForm() {
             <p className="mt-6 text-sm text-cream-400">
               Geen e-mail geopend? Mail ons rechtstreeks op{" "}
               <a
-                href={siteConfig.contact.emailHref}
+                href={siteConfig.contact.eventsEmailHref}
                 className="text-champagne-400 underline-offset-4 hover:underline"
               >
-                {siteConfig.contact.email}
+                {siteConfig.contact.eventsEmail}
               </a>{" "}
               of bel{" "}
               <a

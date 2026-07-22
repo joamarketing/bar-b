@@ -1,12 +1,6 @@
 import FadeIn from "@/components/motion/FadeIn";
 import { siteConfig } from "@/lib/site-config";
 
-const stats = [
-  { value: "1", label: "Exclusieve locatie" },
-  { value: "4+", label: "Types evenementen" },
-  { value: "100%", label: "Op maat ingericht" },
-];
-
 export default function About() {
   return (
     <section
@@ -23,13 +17,13 @@ export default function About() {
       <div className="relative mx-auto grid max-w-6xl grid-cols-1 gap-14 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
         <FadeIn>
           <p className="mb-4 text-xs font-medium uppercase tracking-[0.35em] text-champagne-500">
-            Geworteld in Haspengouw
+            Geworteld in de oudste stad van België
           </p>
           <h2
             id="over-ons-titel"
             className="gold-rule font-serif text-3xl leading-tight text-cream-50 sm:text-4xl lg:text-5xl"
           >
-            Uw feestzaal tussen Tongeren en Borgloon
+            Uw feestzaal in Tongeren-Borgloon
           </h2>
 
           <div className="mt-8 space-y-5 leading-relaxed text-cream-300">
@@ -43,10 +37,8 @@ export default function About() {
             </p>
             <p>
               Wie in Tongeren-Borgloon en omstreken een zaal zoekt voor een
-              fuif, receptie, beurs of verjaardagsfeest, vindt bij Bar-B een
-              locatie die centraal en vlot bereikbaar ligt — voor gasten uit
-              Sint-Truiden, Bilzen, Heers, Wellen en de hele Haspengouwse
-              regio.
+              fuif, receptie, quiz, beurs of verjaardagsfeest, vindt bij Bar-B
+              een locatie die centraal en vlot bereikbaar ligt.
             </p>
             <p>
               Wij geloven dat een feest pas écht slaagt wanneer de locatie
@@ -67,30 +59,11 @@ export default function About() {
               */}
               <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(201,169,106,0.25)_0%,_#1e1d1a_55%,_#161513_100%)]" />
               <figcaption className="absolute inset-0 flex items-center justify-center">
-                <span className="font-serif text-6xl italic text-champagne-500/40 sm:text-7xl">
-                  Bar-B
+                <span className="font-serif text-5xl italic text-champagne-500/40 sm:text-6xl">
+                  Feestzaal Bar-B
                 </span>
               </figcaption>
             </figure>
-          </FadeIn>
-
-          {/* Kerncijfers */}
-          <FadeIn delay={0.3}>
-            <dl className="grid grid-cols-3 gap-4">
-              {stats.map((stat) => (
-                <div
-                  key={stat.label}
-                  className="rounded-xl border border-champagne-500/10 bg-charcoal-800/50 px-4 py-6 text-center"
-                >
-                  <dt className="order-2 mt-2 block text-xs uppercase tracking-wider text-cream-400">
-                    {stat.label}
-                  </dt>
-                  <dd className="font-serif text-3xl text-champagne-400">
-                    {stat.value}
-                  </dd>
-                </div>
-              ))}
-            </dl>
           </FadeIn>
 
           {/* Werkgebied — extra lokale relevantie */}

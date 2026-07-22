@@ -58,10 +58,13 @@ export default function Footer() {
             </h3>
             <address className="mt-5 space-y-3 text-sm not-italic text-cream-300">
               <p>
+                Feestzaal Bar-B
+                <br />
+                {siteConfig.address.building}
+                <br />
                 {siteConfig.address.street}
                 <br />
-                {siteConfig.address.postalCode} {siteConfig.address.city},{" "}
-                {siteConfig.address.region}
+                {siteConfig.address.postalCode} Tongeren-Borgloon
               </p>
               <p>
                 <a

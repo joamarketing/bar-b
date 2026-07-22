@@ -15,7 +15,7 @@ const equipment: EquipmentItem[] = [
     name: "Uplighters",
     subtitle: "Sfeerverlichting",
     description:
-      "Draadloze LED-uplighters die uw feest in elke gewenste kleur baden. Van warm champagne-goud tot diep nachtblauw — de sfeer bepaalt u zelf.",
+      "Mooie draadloze LED-uplighters die uw feest in elke gewenste kleur baden. Van warm champagne-goud tot diep nachtblauw.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.2" className={iconClass} aria-hidden="true">
         <path d="M9 18h6M10 21h4M12 3a6 6 0 0 1 6 6c0 2.5-1.5 4-2.5 5.5-.5.75-.5 1.5-.5 1.5h-6s0-.75-.5-1.5C7.5 13 6 11.5 6 9a6 6 0 0 1 6-6Z" strokeLinecap="round" strokeLinejoin="round" />
@@ -26,7 +26,7 @@ const equipment: EquipmentItem[] = [
     name: "Statafels",
     subtitle: "High-top tafels",
     description:
-      "Strakke statafels die uitnodigen tot netwerken en gezellig samenzijn. Optioneel afgewerkt met stretchhoezen in cream of charcoal.",
+      "Strakke statafels die uitnodigen tot netwerken en gezellig samenzijn. Optioneel afgewerkt met strakke zwarte hoezen.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.2" className={iconClass} aria-hidden="true">
         <ellipse cx="12" cy="5" rx="8" ry="2" strokeLinecap="round" />
@@ -38,7 +38,7 @@ const equipment: EquipmentItem[] = [
     name: "Barkrukken",
     subtitle: "Comfortabel & stijlvol",
     description:
-      "Elegante barkrukken die perfect aansluiten bij onze statafels. Comfort voor uw gasten, klasse voor uw evenement.",
+      "Elegante witte barkrukken die perfect aansluiten bij onze statafels. Comfort voor uw gasten, klasse voor uw evenement.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.2" className={iconClass} aria-hidden="true">
         <path d="M8 6h8M8 6l-2 15M16 6l2 15M7 13h10M12 6v4" strokeLinecap="round" strokeLinejoin="round" />
@@ -75,7 +75,7 @@ export default function Equipment() {
         <SectionHeading
           eyebrow="Zaalmateriaal"
           title="Premium materiaal, tot in het kleinste detail"
-          intro="Bar-B biedt méér dan vier muren. Ons hoogwaardig zaalmateriaal geeft uw evenement die verfijnde, professionele uitstraling — zonder externe verhuurders."
+          intro="Wist u dat we bij Feestzaal Bar-B te Tongeren ook zaalmateriaal verhuren? Ons hoogwaardig zaalmateriaal geeft uw evenement die verfijnde, professionele uitstraling."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -100,8 +100,8 @@ export default function Equipment() {
         {/* Subtiele charter-notitie */}
         <FadeIn delay={0.3}>
           <p className="mx-auto mt-14 max-w-2xl text-center text-sm italic leading-relaxed text-cream-400">
-            Al ons zaalmateriaal kan mee gecharterd worden bij de huur van de
-            zaal — één aanspreekpunt, één zorgeloos geheel. Vraag ernaar bij uw
+            Al ons zaalmateriaal kan mee gereserveerd worden bij de huur van de
+            zaal: één aanspreekpunt, één zorgeloos geheel. Vraag ernaar bij uw
             aanvraag.
           </p>
         </FadeIn>

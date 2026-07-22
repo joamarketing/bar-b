@@ -27,7 +27,7 @@ export default function StructuredData() {
         currenciesAccepted: "EUR",
         address: {
           "@type": "PostalAddress",
-          streetAddress: siteConfig.address.street,
+          streetAddress: `${siteConfig.address.building}, ${siteConfig.address.street}`,
           postalCode: siteConfig.address.postalCode,
           addressLocality: siteConfig.address.city,
           addressRegion: siteConfig.address.region,

@@ -16,16 +16,19 @@ export const siteConfig = {
   locale: "nl_BE",
 
   contact: {
-    // TODO: vervang door echte contactgegevens
-    phone: "+32 12 34 56 78",
-    phoneHref: "tel:+3212345678",
+    phone: "+32 486 41 39 15",
+    phoneHref: "tel:+32486413915",
+    // Algemeen e-mailadres (footer, privacy)
     email: "info@bar-b.be",
     emailHref: "mailto:info@bar-b.be",
+    // Reservatie-/evenementenadres (aanvraagformulier, CTA)
+    eventsEmail: "events@bar-b.be",
+    eventsEmailHref: "mailto:events@bar-b.be",
   },
 
   address: {
-    // TODO: vervang door het echte adres
-    street: "Steenweg 1",
+    building: "Ambiorixplaza",
+    street: "Blaarstraat 99",
     postalCode: "3700",
     city: "Tongeren",
     region: "Limburg",
