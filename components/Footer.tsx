@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
+import FormalooChatbot from "@/components/FormalooChatbot";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -141,6 +142,8 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+
+      <FormalooChatbot />
     </footer>
   );
 }

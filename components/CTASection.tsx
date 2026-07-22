@@ -23,7 +23,7 @@ export default function CTASection() {
         <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1fr_1.2fr] lg:gap-20">
           <FadeIn>
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.35em] text-champagne-500">
-              Aanvraagformulier
+              Reservatie voor zaal
             </p>
             <h2
               id="aanvraag-titel"
@@ -34,7 +34,8 @@ export default function CTASection() {
             <p className="mt-8 leading-relaxed text-cream-300">
               Onze agenda voor 2027 zit al goed vol! Populaire data in het
               weekend zijn snel volzet. Laat ons weten wanneer u wil vieren en
-              wij bevestigen de beschikbaarheid binnen de 24u.
+              wij bevestigen de beschikbaarheid binnen de 24u. Dien nu een
+              aanvraag in via de chatknop rechtsonderaan!
             </p>
 
             <dl className="mt-10 space-y-4 text-cream-200">

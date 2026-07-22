@@ -38,9 +38,8 @@ export const siteConfig = {
   },
 
   social: {
-    // TODO: vervang door echte profielen of verwijder
-    facebook: "https://www.facebook.com/barb.feestzaal",
-    instagram: "https://www.instagram.com/barb.feestzaal",
+    facebook: "https://www.facebook.com/feestzaalbarbtongeren/",
+    instagram: "https://www.instagram.com/feestzaalbarbtongeren/",
   },
 
   areaServed: [
