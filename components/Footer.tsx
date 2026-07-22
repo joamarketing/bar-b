@@ -45,7 +45,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#aanvraag" className="transition-colors hover:text-champagne-400">
-                  Vraag uw datum aan
+                  Vraag reservatie aan
                 </a>
               </li>
             </ul>

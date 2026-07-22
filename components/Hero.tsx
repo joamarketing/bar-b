@@ -46,7 +46,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.2, ease: luxuryEase }}
           className="mb-6 text-xs font-medium uppercase tracking-[0.4em] text-champagne-400 sm:text-sm"
         >
-          Feestzaal · Tongeren-Borgloon · Haspengouw
+          Feestzaal Bar-B | Tongeren-Borgloon
         </motion.p>
 
         <motion.h1
@@ -66,9 +66,11 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.65, ease: luxuryEase }}
           className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-cream-300 sm:text-lg"
         >
-          Bar-B is de meest sfeervolle privé-feestzaal tussen Tongeren en
-          Borgloon. Eén locatie, eindeloos veel mogelijkheden — van intieme
-          recepties tot bruisende fuiven, volledig naar uw wens ingericht.
+          Feestzaal Bar-B is een unieke feestzaal gelegen in het stadscentrum
+          van Tongeren, op wandelafstand van het station. De prachtige unieke
+          locatie in de oude Ambiorixkazerne brengt eindeloos veel
+          mogelijkheden met zich mee, van intieme recepties tot bruisende
+          feestjes zonder einduur. Alles volledig op maat ingericht.
         </motion.p>
 
         <motion.div
@@ -81,7 +83,7 @@ export default function Hero() {
             href="#aanvraag"
             className="group relative w-full overflow-hidden rounded-full bg-champagne-500 px-10 py-4 text-center font-medium tracking-wide text-charcoal-950 transition-all duration-500 hover:bg-champagne-400 hover:shadow-[0_0_40px_rgba(201,169,106,0.35)] sm:w-auto"
           >
-            Vraag uw datum aan
+            Vraag reservatie aan
           </a>
           <a
             href="#evenementen"

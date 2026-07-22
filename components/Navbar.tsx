@@ -59,7 +59,7 @@ export default function Navbar() {
               href="#aanvraag"
               className="rounded-full border border-champagne-500/60 px-5 py-2 text-sm tracking-wide text-champagne-400 transition-all duration-300 hover:bg-champagne-500 hover:text-charcoal-950"
             >
-              Vraag uw datum aan
+              Vraag reservatie aan
             </a>
           </li>
         </ul>
@@ -115,7 +115,7 @@ export default function Navbar() {
                   onClick={() => setMenuOpen(false)}
                   className="block rounded-full bg-champagne-500 px-6 py-3 text-center font-medium text-charcoal-950 transition-colors hover:bg-champagne-400"
                 >
-                  Vraag uw datum aan
+                  Vraag reservatie aan
                 </a>
               </li>
             </ul>
