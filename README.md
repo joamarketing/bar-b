@@ -28,8 +28,8 @@ components/
   UseCases.tsx      # Fuiven & Feesten, Recepties, Beurzen & Quizzen, Verjaardagen
   Equipment.tsx     # Zaalmateriaal: uplighters, statafels, barkrukken, stoelen
   About.tsx         # Lokale verankering: Tongeren, Borgloon, Haspengouw
-  CTASection.tsx    # Conversiesectie met contactgegevens
-  InquiryForm.tsx   # Aanvraagformulier (mailto-fallback, klaar voor API-route)
+  CTASection.tsx    # Conversiesectie met contactgegevens (verwijst naar chatbot)
+  FormalooChatbot.tsx # Formaloo chatbot-widget (aanvragen via chat)
   Footer.tsx        # Contact, navigatie, dynamische copyright, privacylinks
   SectionHeading.tsx
   StructuredData.tsx # JSON-LD: EventVenue/LocalBusiness + WebSite schema
@@ -48,6 +48,6 @@ lib/
    - sfeerfoto van de zaal (zie commentaar in `components/About.tsx`).
 3. **Domein** — pas `siteConfig.url` aan indien het domein afwijkt van
    `https://www.bar-b.be`.
-4. **Formulier** — het aanvraagformulier opent nu een voorgevulde e-mail;
-   koppel desgewenst een API-route of formulierdienst in
-   `components/InquiryForm.tsx`.
+4. **Aanvragen** — reservatieaanvragen verlopen via de Formaloo chatbot
+   (`components/FormalooChatbot.tsx`); de widget verschijnt rechtsonderaan op
+   elke pagina.
