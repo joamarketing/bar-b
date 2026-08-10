@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import { siteConfig } from "@/lib/site-config";
 import StructuredData from "@/components/StructuredData";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -92,6 +93,7 @@ export default function RootLayout({
       <body className="texture-noise min-h-screen">
         <StructuredData />
         {children}
+        <Analytics />
       </body>
     </html>
   );
