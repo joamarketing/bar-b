@@ -28,8 +28,9 @@ components/
   UseCases.tsx      # Fuiven & Feesten, Recepties, Beurzen & Quizzen, Verjaardagen
   Equipment.tsx     # Zaalmateriaal: uplighters, statafels, barkrukken, stoelen
   About.tsx         # Lokale verankering: Tongeren, Borgloon, Haspengouw
-  CTASection.tsx    # Conversiesectie met contactgegevens (verwijst naar chatbot)
-  FormalooChatbot.tsx # Formaloo chatbot-widget (aanvragen via chat)
+  CTASection.tsx    # Conversiesectie met contactgegevens (verwijst naar chat)
+  ChatWidget.tsx    # Dmigo chat-widget (aanvragen via chat)
+  UsermavenAnalytics.tsx # Privacyvriendelijke bezoekersanalyse (Usermaven)
   Footer.tsx        # Contact, navigatie, dynamische copyright, privacylinks
   SectionHeading.tsx
   StructuredData.tsx # JSON-LD: EventVenue/LocalBusiness + WebSite schema
@@ -48,6 +49,9 @@ lib/
    - sfeerfoto van de zaal (zie commentaar in `components/About.tsx`).
 3. **Domein** — pas `siteConfig.url` aan indien het domein afwijkt van
    `https://www.bar-b.be`.
-4. **Aanvragen** — reservatieaanvragen verlopen via de Formaloo chatbot
-   (`components/FormalooChatbot.tsx`); de widget verschijnt rechtsonderaan op
-   elke pagina.
+4. **Aanvragen** — reservatieaanvragen verlopen via de Dmigo chat-widget
+   (`components/ChatWidget.tsx`); de knop verschijnt rechtsonderaan op elke
+   pagina.
+5. **Analyse** — bezoekersmeting via Usermaven
+   (`components/UsermavenAnalytics.tsx`, strikte privacymodus) en Vercel
+   Analytics. Beide staan vermeld in het privacybeleid (`app/privacy`).

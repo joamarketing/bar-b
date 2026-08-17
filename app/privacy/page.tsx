@@ -67,12 +67,29 @@ export default function PrivacyPage() {
             </p>
           </section>
 
-          <section aria-labelledby="cookies" id="cookies">
-            <h2 className="mb-3 font-serif text-2xl text-cream-50">Cookies</h2>
+          <section aria-labelledby="analyse" id="analyse">
+            <h2 id="analyse" className="mb-3 font-serif text-2xl text-cream-50">
+              Analyse &amp; meting
+            </h2>
             <p>
-              Deze website gebruikt geen tracking- of marketingcookies. Enkel
-              strikt noodzakelijke, functionele technologie wordt ingezet om
-              de site correct weer te geven.
+              Om onze website te verbeteren, meten wij op een
+              privacyvriendelijke manier hoe bezoekers de site gebruiken. Wij
+              maken hiervoor gebruik van Usermaven, geconfigureerd in strikte
+              privacymodus, en van de ingebouwde analysefunctie van onze
+              hostingpartner. Deze meting verzamelt geanonimiseerde
+              gebruiksstatistieken en wordt niet gebruikt voor advertenties.
+            </p>
+          </section>
+
+          <section aria-labelledby="cookies" id="cookies">
+            <h2 id="cookies" className="mb-3 font-serif text-2xl text-cream-50">
+              Cookies
+            </h2>
+            <p>
+              Deze website gebruikt geen advertentie- of marketingcookies.
+              Naast strikt noodzakelijke, functionele technologie zetten wij
+              enkel de hierboven beschreven privacyvriendelijke analyse en een
+              chatfunctie in om u verder te helpen.
             </p>
           </section>
 
